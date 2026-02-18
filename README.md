@@ -48,12 +48,9 @@ We developed a novel tier-based approach to handle extreme data imbalance (68% v
 ```
 restaurant-order-analysis/
 │
-├── 📊 data/
-│   └── order_history_kaggle_data.csv          # Input dataset (21,321 orders)
-│
-├── 💻 src/
-│   ├── restaurant_analysis.py                 # Main analysis pipeline
-│   └── business_impact_module.py              # Financial projections
+│└── order_history_kaggle_data.csv          # Input dataset (21,321 orders)
+│├── restaurant_analysis.py                 # Main analysis pipeline
+│└── business_impact_module.py              # Financial projections
 │
 ├── 📈 outputs/
 │   ├── cleaned_data_6_restaurants.xlsx        # Cleaned dataset
@@ -65,10 +62,6 @@ restaurant-order-analysis/
 │   ├── 05_Tier3_Top_Products.xlsx             # Descriptive analysis
 │   ├── 06_Business_Impact_Analysis.xlsx       # ROI projections
 │   └── 07_Business_Impact_Visualization.png   # 5-panel dashboard
-│
-├── 📝 docs/
-│   ├── CMPE403_Final_Report.pdf               # Academic paper
-│   └── CMPE403_Presentation.pptx              # Slide deck
 │
 ├── 📄 README.md                                # This file
 ├── 📄 requirements.txt                         # Python dependencies
