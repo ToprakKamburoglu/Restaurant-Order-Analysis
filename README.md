@@ -48,12 +48,9 @@ We developed a novel tier-based approach to handle extreme data imbalance (68% v
 ```
 restaurant-order-analysis/
 │
-├── 📊 data/
-│   └── order_history_kaggle_data.csv          # Input dataset (21,321 orders)
-│
-├── 💻 src/
-│   ├── restaurant_analysis.py                 # Main analysis pipeline
-│   └── business_impact_module.py              # Financial projections
+│└── order_history_kaggle_data.csv          # Input dataset (21,321 orders)
+│├── restaurant_analysis.py                 # Main analysis pipeline
+│└── business_impact_module.py              # Financial projections
 │
 ├── 📈 outputs/
 │   ├── cleaned_data_6_restaurants.xlsx        # Cleaned dataset
@@ -65,10 +62,6 @@ restaurant-order-analysis/
 │   ├── 05_Tier3_Top_Products.xlsx             # Descriptive analysis
 │   ├── 06_Business_Impact_Analysis.xlsx       # ROI projections
 │   └── 07_Business_Impact_Visualization.png   # 5-panel dashboard
-│
-├── 📝 docs/
-│   ├── CMPE403_Final_Report.pdf               # Academic paper
-│   └── CMPE403_Presentation.pptx              # Slide deck
 │
 ├── 📄 README.md                                # This file
 ├── 📄 requirements.txt                         # Python dependencies
@@ -182,15 +175,15 @@ pip install pandas numpy mlxtend matplotlib seaborn openpyxl
 ## 📈 Visualizations
 
 ### EDA Overview (6 Panels)
-![EDA Overview](outputs/01_EDA_Overview.png)
+![EDA Overview](restaurant_project/outputs/01_EDA_Overview.png)
 *Market concentration, tier distribution, multi-item analysis*
 
 ### Algorithm Comparison (4 Panels)
-![Algorithm Comparison](outputs/03_Algorithm_Comparison_Charts.png)
+![Algorithm Comparison](restaurant_project/outputs/03_Algorithm_Comparison_Charts.png)
 *Execution time, speedup, rules generated, frequent itemsets*
 
 ### Business Impact (5 Panels)
-![Business Impact](outputs/07_Business_Impact_Visualization.png)
+![Business Impact](restaurant_project/outputs/07_Business_Impact_Visualization.png)
 *Revenue potential, ROI distribution, satisfaction correlation, top opportunities*
 
 ---
@@ -200,12 +193,12 @@ pip install pandas numpy mlxtend matplotlib seaborn openpyxl
 **Course:** CMPE403 Data Science and Analytics  
 **Institution:** Kadir Has University  
 **Supervisor:** Assoc. Prof. Dr. Taner Arsan  
-**Date:** Fall 2024  
+**Date:** Fall 2025  
 
 **Team Members:**
-- Toprak Kamburoğlu (20211701089)
-- Yiğit Avar (20211701058)
-- Mehmet Eren Öztürk (20211704073)
+- Toprak Kamburoğlu 
+- Yiğit Avar 
+- Mehmet Eren Öztürk 
 
 ---
 
@@ -285,9 +278,9 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## 📧 Contact
 
 **Toprak Kamburoğlu**  
-📧 Email: toprak.kamburoglu@std.khas.edu.tr  
+📧 Email: toprakkamburoglu@gmail.com  
 🎓 Institution: Kadir Has University  
-🔗 LinkedIn: [linkedin.com/in/toprak-kamburoglu](https://linkedin.com/in/toprak-kamburoglu)  
+🔗 LinkedIn: [linkedin.com/in/toprak-kamburoglu](www.linkedin.com/in/toprak-kamburoğlu-627636293)  
 
 ---
 
@@ -307,7 +300,7 @@ If you use this work in your research, please cite:
 @misc{kamburoglu2024restaurant,
   author = {Kamburoğlu, Toprak and Avar, Yiğit and Öztürk, Mehmet Eren},
   title = {Restaurant Order Analysis and Product Association Discovery},
-  year = {2024},
+  year = {2025},
   publisher = {GitHub},
   url = {https://github.com/yourusername/restaurant-order-analysis}
 }
@@ -317,5 +310,5 @@ If you use this work in your research, please cite:
 
 <p align="center">
   <strong>Made with ❤️ for Data Science</strong><br>
-  <sub>CMPE403 Final Project | Kadir Has University | Fall 2024</sub>
+  <sub>CMPE403 Data Science and Analytics Final Project | Kadir Has University | Fall 2025</sub>
 </p>
