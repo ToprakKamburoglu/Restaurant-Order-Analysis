@@ -1,4 +1,4 @@
-# 🍕 Restaurant Order Analysis & Product Association Discovery
+# Restaurant Order Analysis & Product Association Discovery
 
 [![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
@@ -309,6 +309,5 @@ If you use this work in your research, please cite:
 ---
 
 <p align="center">
-  <strong>Made with ❤️ for Data Science</strong><br>
   <sub>CMPE403 Data Science and Analytics Final Project | Kadir Has University | Fall 2025</sub>
 </p>
