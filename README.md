@@ -91,7 +91,7 @@ pip install -r requirements.txt
 
 3. **Run the analysis**
 ```bash
-python src/restaurant_analysis.py
+python restaurant_analysis.py
 ```
 
 **Runtime:** Approximately 5-12 minutes
